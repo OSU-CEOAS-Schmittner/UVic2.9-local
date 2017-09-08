@@ -23,8 +23,11 @@ Currently none.
 
 1. Clone this repo somewhere.
 2. Exec `config_UVic_env.sh`
-3. Modify and compile your code: `mk e`
+3. Modify in `code\` and compile: `mk e`
 4. Submit a job to run `qsub mobi1.9nb.q`
+
+There's also a handy script to clean up your working directory as the model litters a lot of output and log files that
+you may not want. `cleanup.sh`.
 
 ## Running the tests
 
