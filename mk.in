@@ -69,9 +69,11 @@ O_tracer_averages
 #O_bryan_lewis_vertical 
 O_gent_mcwilliams
 O_isopycmix 
-O_fct
-#O_quicker
-#O_ncar_upwind3
+#O_fct
+O_eddy_mix
+O_KGMdiag
+O_quicker
+O_ncar_upwind3
 #O_npzd
 #O_npzd_alk
 #O_npzd_caco3
