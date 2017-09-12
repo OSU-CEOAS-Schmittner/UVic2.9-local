@@ -11,7 +11,7 @@ Once this repo is checked out in your home directory on the master node of the c
 $ ./config_UVic_env.sh
 ```
 
-This will generate the required `mobi1.9nb.q` file for you to run your model. Your model will fail to run if you
+This will generate the required `myrun.q` file for you to run your model. Your model will fail to run if you
 don't run this script first.
 
 
@@ -23,8 +23,9 @@ Currently none.
 
 1. Clone this repo somewhere.
 2. Exec `config_UVic_env.sh`
-3. Modify in `code\` and compile: `mk e`
-4. Submit a job to run `qsub mobi1.9nb.q`
+3. For quick tests: modify in `code\` and compile: `mk e`
+4. For larger changes you plan to keep copy the original .F file (the path is in the fist line of the corresponding file in the `code/`) into `updates/` and compile: `mk e`
+4. Submit a job to run `qsub myrun.q`
 
 There's also a handy script to clean up your working directory as the model litters a lot of output and log files that
 you may not want. `cleanup.sh`.
